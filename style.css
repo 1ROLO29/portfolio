@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #24252A;
+
+}
+
+li,a,button{
+  font-weight: 500;
+  font-size:16px;
+  color:whitesmoke;
+  text-decoration: none; 
+
+}
+button{
+  padding:10px;
+  border-radius: 16px;
+  cursor:pointer;
+  
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px 10%;
+}
+.vavi{
+  list-style:none;
+}
+
+.vavi li{
+  display:inline-block;
+  padding :0px 20px;
+}
+.vavi li a{
+  transition: all 0.3s ease 0s;
+}
+.vavi li a:hover{
+  color:rgb(58, 58, 147);
+}
+
